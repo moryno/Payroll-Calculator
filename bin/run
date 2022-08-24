@@ -1,0 +1,8 @@
+require_relative "../config/environment"
+
+
+data = {id: 2335, first_name: "John", last_name: "Smith", age: 30, basic_salary: 28000, benefits: 10000}
+
+s1 = Payroll.new(data)
+puts Payroll.nhif_deductions(20000,0)
+puts s1.first_name
